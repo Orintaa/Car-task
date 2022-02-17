@@ -5,7 +5,7 @@
  * @param {number} costsInHighway Kuro sanaudos magistraleje
  * @param {number} costsOnAverage Kuro sanaudos vidutiniskai
  * @param {number} costsInCity Kuro sanaudos mieste
- * @returns Sakinys
+ * @returns {string} Sakinys
  */
 function car(carModel, fullTank, costsInHighway, costsOnAverage, costsInCity) {
     const distanceHighway = Math.floor(fullTank /costsInHighway * 100);
